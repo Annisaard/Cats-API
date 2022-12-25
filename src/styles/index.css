@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap");
+:root {
+  background-color: #fdfaeb;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fdfaeb;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.font-fraun {
+  font-family: "Fraunces", serif;
+}
+.shadownav {
+  box-shadow: 0px 0px 50px rgba(80, 80, 80, 0.048);
+}
